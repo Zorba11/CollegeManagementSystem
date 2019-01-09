@@ -1,0 +1,3 @@
+The SQL commands for creating the beginner tables are in the Database folder.
+admin username: tony
+admin password: stark123
