@@ -11,11 +11,12 @@
 
 <%
 String userName = (String)session.getAttribute("userName");
+
 %>
 
 <div align="center">
-<h2>Product Management System</h2>
-<label>Welcome <%= userName %></label>
+<h2>Montreal College Management System</h2>
+<label>Welcome <%= userName.toUpperCase() %></label>
 </div>
 
 </body>
