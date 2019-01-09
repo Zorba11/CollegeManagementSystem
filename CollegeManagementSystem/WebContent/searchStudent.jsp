@@ -18,6 +18,7 @@
 		<button class="actionBtn">Search</button>
 	</form>
 </div> 
+<table align="center" class="studentTable">
 		<thead>
 			<tr>
 				<th>Student ID</th>

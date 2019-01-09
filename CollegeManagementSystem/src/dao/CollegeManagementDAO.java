@@ -86,10 +86,10 @@ public class CollegeManagementDAO {
 			Connection conn = DBUtil.getConnection();
 			PreparedStatement ps= conn.prepareStatement("UPDATE students SET stud_fname=?,stud_lname=?, stud_course=?, stud_grade=? WHERE stud_id=?");
 			ps.setString(1, student.getStudentFirstName());
-			ps.setString(1, student.getStudentLastName());
-			ps.setString(2, student.getStudentCourse());
-			ps.setInt(3, student.getStudentGrade());
-			ps.setString(4, student.getStudentId());
+			ps.setString(2, student.getStudentLastName());
+			ps.setString(3, student.getStudentCourse());
+			ps.setInt(4, student.getStudentGrade());
+			ps.setString(5, student.getStudentId());
 			status = ps.executeUpdate();
 		}
 		catch(Exception e)
